@@ -6,9 +6,9 @@ on:
 
 jobs:
   deploy-codigofacilito:
-    run-om: ubuntu-lastest
+    run-om: ubuntu-latest
     steps:
-      - run: echo "Hacemos pull del código"
-      - run: echo "Correr migraciosnes"
-      - run: echo "Generar binario"
-      - run: echo "Publicar versión"
+      run: echo "Hacemos pull del código"
+      run: echo "Correr migraciosnes"
+      run: echo "Generar binario"
+      run: echo "Publicar versión"
