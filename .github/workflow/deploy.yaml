@@ -8,7 +8,6 @@ jobs:
   deploy-repoactions:
     run-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
       - run: echo "Hacemos pull del código"
       - run: echo "Correr migraciosnes"
       - run: echo "Generar binario"
