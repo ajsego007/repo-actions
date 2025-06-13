@@ -1,4 +1,4 @@
-name: "Deploy Github-actions"
+name: "Deploy repoactions" 
 
 on:
   push:
