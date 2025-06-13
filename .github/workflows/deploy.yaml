@@ -6,7 +6,7 @@ on:
 
 jobs:
   deploy-repoactions:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Hacemos pull del código"
       - run: echo "Correr migraciosnes"
